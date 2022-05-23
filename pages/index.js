@@ -95,78 +95,78 @@ export default function Home() {
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
           <div className="text-white text-lg">
             <h1 className="text-3xl">What We Do</h1>
-            <div class="container px-1 py-4 mx-auto">
-              <div class="flex flex-wrap -m-2">
-                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                  <div class="h-full flex items-center border-gray-200 p-4 rounded-lg bg-green-200/[0.2] hover:bg-green-900 hover:scale-105">
+            <div  className="container px-1 py-4 mx-auto">
+              <div  className="flex flex-wrap -m-2">
+                <div  className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                  <div  className="h-full flex items-center border-gray-200 p-4 rounded-lg bg-green-200/[0.2] hover:bg-green-900 hover:scale-105">
                     <img
                       alt="team"
-                      class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                       className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                       src="/01cloud-computing.jpg"
                     />
-                    <div class="flex-grow">
-                      <h2 class="text-gray-200 title-font font-medium">
+                    <div  className="flex-grow">
+                      <h2  className="text-gray-200 title-font font-medium">
                         Create Cloud Solutions Architecture
                       </h2>
                     </div>
                   </div>
                 </div>
 
-                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                  <div class="h-full flex items-center border-gray-200 p-4 rounded-lg bg-green-200/[0.2] hover:bg-green-900 hover:scale-105">
+                <div  className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                  <div  className="h-full flex items-center border-gray-200 p-4 rounded-lg bg-green-200/[0.2] hover:bg-green-900 hover:scale-105">
                     <img
                       alt="team"
-                      class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                       className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                       src="/02team.jpg"
                     />
-                    <div class="flex-grow">
-                      <h2 class="text-gray-200 title-font font-medium">
+                    <div  className="flex-grow">
+                      <h2  className="text-gray-200 title-font font-medium">
                         Build Your Product and Team
                       </h2>
                     </div>
                   </div>
                 </div>
 
-                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                  <div class="h-full flex items-center border-gray-200 p-4 rounded-lg bg-green-200/[0.2] hover:bg-green-900 hover:scale-105">
+                <div  className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                  <div  className="h-full flex items-center border-gray-200 p-4 rounded-lg bg-green-200/[0.2] hover:bg-green-900 hover:scale-105">
                     <img
                       alt="team"
-                      class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                       className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                       src="/03team.jpg"
                     />
-                    <div class="flex-grow">
-                      <h2 class="text-gray-200 title-font font-medium">
+                    <div  className="flex-grow">
+                      <h2  className="text-gray-200 title-font font-medium">
                         Provide Coaching to Existing Teams
                       </h2>
                     </div>
                   </div>
                 </div>
 
-                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                  <div class="h-full flex items-center border-gray-200 p-4 rounded-lg bg-green-200/[0.2] hover:bg-green-900 hover:scale-105">
+                <div  className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                  <div  className="h-full flex items-center border-gray-200 p-4 rounded-lg bg-green-200/[0.2] hover:bg-green-900 hover:scale-105">
                     <img
                       alt="team"
-                      class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                       className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                       src="/04software.jpg"
                     />
-                    <div class="flex-grow">
-                      <h2 class="text-gray-200 title-font font-medium">
+                    <div  className="flex-grow">
+                      <h2  className="text-gray-200 title-font font-medium">
                         Make Software and Hardware Work Together
                       </h2>
-                      <p class="text-gray-500"></p>
+                      <p  className="text-gray-500"></p>
                     </div>
                   </div>
                 </div>
 
-                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                  <div class="h-full flex items-center border-gray-200 p-4 rounded-lg bg-green-200/[0.2] hover:bg-green-900 hover:scale-105">
+                <div  className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                  <div  className="h-full flex items-center border-gray-200 p-4 rounded-lg bg-green-200/[0.2] hover:bg-green-900 hover:scale-105">
                     <img
                       alt="team"
-                      class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                       className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                       src="/05linux.jpg"
                     />
-                    <div class="flex-grow">
-                      <h2 class="text-gray-200 title-font font-medium">
+                    <div  className="flex-grow">
+                      <h2  className="text-gray-200 title-font font-medium">
                         Solve Difficult Linux Challenges
                       </h2>
                     </div>
