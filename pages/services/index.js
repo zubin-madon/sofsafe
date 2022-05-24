@@ -15,7 +15,7 @@ function services() {
         <img className="object-contain w-1/2 mt-5 mb-5" src="https://images.pexels.com/photos/6774944/pexels-photo-6774944.jpeg?cs=srgb&dl=pexels-kindel-media-6774944.jpg&fm=jpg" alt="startup services"></img>
         <h3 className="text-2xl font-medium title-font mb-4 pb-4 text-gray-400">Get experienced help during the part of the journey where most startups fail</h3>
         <p className="leading-relaxed text-xl mb-4">
-  Managing a startup is HARD, there is an overwhelming amount of work to do. You need to do the “invisible” work of hiring a team, creating processes and meeting with investors. All while leading from the front to bring your idea to the market. We've been there.
+  Managing a startup is HARD, there is an overwhelming amount of work to do. You need to do the “invisible” work of hiring a team, creating processes and meeting with investors. All while leading from the front to bring your idea to the market. We&apos;ve been there.
   </p>
         <Link href="/services/startup">
         <a className="text-green-500 inline-flex items-center">Read More

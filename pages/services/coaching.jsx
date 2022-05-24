@@ -138,7 +138,7 @@ function Coaching() {
                  to business continuity by utilizing meticulous engineering validation and a detailed documentation system designed to facilitate long-term maintainability.
                   
                     <li>
-                    Blueprint: An experienced engineer updates the software's detailed blueprint documents with the changes needed. If required, they create experimental code
+                    Blueprint: An experienced engineer updates the software&apos;s detailed blueprint documents with the changes needed. If required, they create experimental code
                      to verify assumptions.
                     </li>
 

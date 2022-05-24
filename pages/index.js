@@ -74,7 +74,7 @@ export default function Home() {
                 <p className="leading-relaxed text-justify text-2xl text-gray-400">
                   Our software engineering expertise helps startups that are
                   building innovative solutions which go beyond merely the next
-                  quarter's profits, and aim to make a positive impact on the
+                  quarter&apos;s profits, and aim to make a positive impact on the
                   environment and our society as a whole. We help founders
                   create software that will provide them an edge in their
                   industry. Our team combines strong technical architecture
