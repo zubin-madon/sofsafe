@@ -25,7 +25,7 @@ function Startup() {
                 <div className='text-right pr-24 self-end'>
                   <Link href="/services/">   
                     <a className="text-green-500 inline-flex items-center">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M2.117 12l7.527 6.235-.644.765-9-7.521 9-7.479.645.764-7.529 6.236h21.884v1h-21.883z"/>
                       </svg>
                       &nbsp;Back To Services
@@ -38,9 +38,9 @@ function Startup() {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-6 h-6"
                     viewBox="0 0 24 24"
                   >
@@ -109,9 +109,9 @@ function Startup() {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-6 h-6"
                     viewBox="0 0 24 24"
                   >
@@ -156,9 +156,9 @@ function Startup() {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-6 h-6"
                     viewBox="0 0 24 24"
                   >
@@ -175,7 +175,8 @@ function Startup() {
                         className="text-green-200 hover:text-blue-500"
                         href="https://drive.google.com/uc?export=download&id=1YPrixQdA1G13Q8-ZDdfOr-Mu5nl2Q5Mz"
                         alt="document"
-                        target="_blank"
+                        target="_blank" 
+                        rel="noreferrer"
                       >
                         Download our Quickly Launching a Maintainable Software
                         Product PDF
@@ -188,7 +189,8 @@ function Startup() {
                         className="text-green-200 hover:text-blue-500"
                         href="mailto:Info@SofSafe.cloud"
                         alt="document"
-                        target="_blank"
+                        target="_blank" 
+                        rel="noreferrer"
                       >
                         Info@SofSafe.cloud
                       </a>
@@ -217,7 +219,8 @@ function Startup() {
                         className="text-green-200 hover:text-blue-500"
                         href="https://drive.google.com/uc?export=download&id=1jQnpO95MOTR3kpdfE5MxZAUiYXLYkmgm"
                         alt="document"
-                        target="_blank"
+                        target="_blank" 
+                        rel="noreferrer"
                       >
                         Low-Risk Startup Assistance Service Process PDF
                       </a>
@@ -234,9 +237,9 @@ function Startup() {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-6 h-6"
                     viewBox="0 0 24 24"
                   >
@@ -354,7 +357,7 @@ function Startup() {
           <div className='pt-10 text-right pr-24'>
                   <Link href="/services/">   
                     <a className="text-green-500 inline-flex items-center">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M2.117 12l7.527 6.235-.644.765-9-7.521 9-7.479.645.764-7.529 6.236h21.884v1h-21.883z"/>
                       </svg>
                       &nbsp;Back To Services

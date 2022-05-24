@@ -1,6 +1,6 @@
 import Navbar from '../src/components/Navbar';
 import '../styles/globals.css'
-import Link from 'next/dist/client/link';
+import Link from 'next/link';
 
 function MyApp({ Component, pageProps }) {
   return <>

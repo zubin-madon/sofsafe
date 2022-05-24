@@ -1,4 +1,5 @@
 import Link from 'next/dist/client/link';
+import Image from 'next/image';
 function services() {
   return (
 <section className="text-gray-500 body-font">
@@ -18,7 +19,7 @@ function services() {
   </p>
         <Link href="/services/startup">
         <a className="text-green-500 inline-flex items-center">Read More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+          <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
         <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
         </a>
@@ -34,7 +35,7 @@ function services() {
       </p>
       <Link href="/services/coaching">
       <a className="text-green-500 inline-flex items-center">Read More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+          <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
         <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
         </a>
@@ -50,7 +51,7 @@ function services() {
       </p> 
       <Link href="/services/software">
       <a className="text-green-500 inline-flex items-center">Read More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+          <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
         <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
         </a>      

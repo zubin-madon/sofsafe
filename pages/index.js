@@ -19,8 +19,11 @@ export default function Home() {
         <section className="text-gray-600 body-font overflow-hidden">
           <div className="container px-5 mx-auto">
             <div className="lg:w-4/5 mx-auto flex flex-wrap">
-              <img
-                alt="ecommerce"
+              <Image
+                alt="logo"
+                layout="intrinsic"
+                width="450"
+                height="450"
                 className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded p-6"
                 src="/logo512.png"
               />
@@ -33,9 +36,9 @@ export default function Home() {
                     <a className="text-gray-400 pl-3">
                       <svg
                         fill="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         className="w-5 h-5"
                         viewBox="0 0 24 24"
                       >
@@ -45,9 +48,9 @@ export default function Home() {
                     <a className="text-gray-400 pl-3">
                       <svg
                         fill="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         className="w-5 h-5"
                         viewBox="0 0 24 24"
                       >
@@ -57,9 +60,9 @@ export default function Home() {
                     <a className="text-gray-400 pl-3">
                       <svg
                         fill="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         className="w-5 h-5"
                         viewBox="0 0 24 24"
                       >
@@ -81,7 +84,7 @@ export default function Home() {
                 <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5"></div>
 
                 <div className="flex">
-                  <Link href="/#contact">
+                  <Link href="/contact">
                     <button className="flex ml-auto text-white bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-800 rounded">
                       Get in Touch
                     </button>
@@ -99,13 +102,16 @@ export default function Home() {
               <div  className="flex flex-wrap -m-2">
                 <div  className="p-2 lg:w-1/3 md:w-1/2 w-full">
                   <div  className="h-full flex items-center border-gray-200 p-4 rounded-lg bg-green-200/[0.2] hover:bg-green-900 hover:scale-105">
-                    <img
+                    <Image
+                      layout="intrinsic"
+                      width="50"
+                      height="50"
                       alt="team"
-                       className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                       className="pr-5 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                       src="/01cloud-computing.jpg"
                     />
                     <div  className="flex-grow">
-                      <h2  className="text-gray-200 title-font font-medium">
+                      <h2  className="text-gray-200 title-font font-medium pl-5">
                         Create Cloud Solutions Architecture
                       </h2>
                     </div>
@@ -114,13 +120,16 @@ export default function Home() {
 
                 <div  className="p-2 lg:w-1/3 md:w-1/2 w-full">
                   <div  className="h-full flex items-center border-gray-200 p-4 rounded-lg bg-green-200/[0.2] hover:bg-green-900 hover:scale-105">
-                    <img
+                    <Image
+                      layout="intrinsic"
+                      width="50"
+                      height="50"
                       alt="team"
-                       className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                       className="pr-5 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                       src="/02team.jpg"
                     />
                     <div  className="flex-grow">
-                      <h2  className="text-gray-200 title-font font-medium">
+                      <h2  className="text-gray-200 title-font font-medium pl-5">
                         Build Your Product and Team
                       </h2>
                     </div>
@@ -129,13 +138,16 @@ export default function Home() {
 
                 <div  className="p-2 lg:w-1/3 md:w-1/2 w-full">
                   <div  className="h-full flex items-center border-gray-200 p-4 rounded-lg bg-green-200/[0.2] hover:bg-green-900 hover:scale-105">
-                    <img
+                    <Image
+                      layout="intrinsic"
+                      width="50"
+                      height="50"
                       alt="team"
-                       className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                       className="pr-5 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                       src="/03team.jpg"
                     />
                     <div  className="flex-grow">
-                      <h2  className="text-gray-200 title-font font-medium">
+                      <h2  className="text-gray-200 title-font font-medium pl-5">
                         Provide Coaching to Existing Teams
                       </h2>
                     </div>
@@ -144,13 +156,16 @@ export default function Home() {
 
                 <div  className="p-2 lg:w-1/3 md:w-1/2 w-full">
                   <div  className="h-full flex items-center border-gray-200 p-4 rounded-lg bg-green-200/[0.2] hover:bg-green-900 hover:scale-105">
-                    <img
+                    <Image
+                      layout="intrinsic"
+                      width="50"
+                      height="50"
                       alt="team"
-                       className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                       className="pr-5 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                       src="/04software.jpg"
                     />
                     <div  className="flex-grow">
-                      <h2  className="text-gray-200 title-font font-medium">
+                      <h2  className="text-gray-200 title-font font-medium pl-5">
                         Make Software and Hardware Work Together
                       </h2>
                       <p  className="text-gray-500"></p>
@@ -160,13 +175,16 @@ export default function Home() {
 
                 <div  className="p-2 lg:w-1/3 md:w-1/2 w-full">
                   <div  className="h-full flex items-center border-gray-200 p-4 rounded-lg bg-green-200/[0.2] hover:bg-green-900 hover:scale-105">
-                    <img
+                    <Image
                       alt="team"
-                       className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                      width="50"
+                      height="50"
+                      layout="intrinsic"                   
+                       className="pr-5 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                       src="/05linux.jpg"
                     />
                     <div  className="flex-grow">
-                      <h2  className="text-gray-200 title-font font-medium">
+                      <h2  className="text-gray-200 title-font font-medium pl-5">
                         Solve Difficult Linux Challenges
                       </h2>
                     </div>
